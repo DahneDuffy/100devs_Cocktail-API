@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* display: inline-block; */
+}
+
+img{
+    max-width: 20%;
+}
+
+.nextDrink{
+    display: none;
+}
