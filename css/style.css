@@ -1,13 +1,66 @@
-* {
+*, *:before, *:after{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     /* display: inline-block; */
+}
+body {
+    background: linear-gradient(to left top, #ffffff,#c3f7be);
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+}
+div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 img{
-    max-width: 20%;
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
 }
+
+h1{
+    font-size: 2em;
+    margin:10px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
 
 .nextDrink{
     display: none;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    width: 60%;
+}
+
+button {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    width: 100px;
+
 }
